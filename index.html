@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/styles.css" />
+    <link rel="stylesheet" href="./dist/assets/css/tailwind.css" />
+    <link rel="stylesheet" href="./dist/assets/css/tailwind-base.css" />
+    <link rel="stylesheet" href="./dist/assets/css/tailwind-base.min.css" />
+    <link rel="stylesheet" href="./dist/assets/css/tailwind-utilities.css" />
+    <link rel="stylesheet" href="./dist/assets/css/tailwind-utilities.min.css" />
+    <link rel="stylesheet" href="./dist/assets/css/tailwind-components.css" />
+    <link rel="stylesheet" href="./dist/assets/css/tailwind-components.min.css" />
+    <link rel="stylesheet" href="./dist/assets/css/tailwind-all.css" />
+    <link rel="stylesheet" href="./dist/assets/css/tailwind-all.min.css" />
+    <link rel="stylesheet" href="./wow/animate.css" />
+
+    <title>Tailwind Boilerplate</title>
+    <style>
+      #menu-toggle:checked + #menu{
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class=" bg-blue-900">
+    <!-- header -->
+    <div class=" container mx-auto px-4 py-4 flex justify-between flex-wrap ... " id="home">
+      <div class=" mt-2">
+        <img src="src/img/logo.png" alt="">
+      </div>
+      <label for="menu-toggle" class="md:hidden cursor-pointer self-center mr-2 w-12 h-12">
+        <img src="src/img/icons8-menu-squared-100q.png" alt="" class="">
+     
+      </label>
+      <input class="hidden " type="checkbox" id="menu-toggle" >
+      <div class="hidden w-full md:flex md:flex-grow md:w-auto md:text-justify" id="menu">
+        <ul class=" text-center md:flex md:flex-grow md:justify-center">
+          <li class="mt-6 text-white md:mt-3 px-2"><a href="#home" class="font-bold">Home</a></li>
+          <li class="mt-3 text-white  md:px-2"><a href="#section1" class="font-bold ">About</a></li>
+          <li class="mt-3 text-white  md:px-2"><a href="#section2" class="font-bold ">Claint</a></li>
+          <li class="mt-3 text-white  md:px-2"><a href="#section3" class="font-bold ">Blog</a></li>
+          <li class="mt-3 text-white  md:px-2"><a href="#footer" class="font-bold ">Contact</a></li>
+        </ul>
+      <button class="ml-24 mt-5 md:mt-0 w-20 h-10  md:w-12 md:h-7 rounded-lg bg-orange-600 text-white mx-3"><a href="#footer">login</a></button>
+      <button class="  text-white"><a href="#footer">Register</a> </button>
+      </div>
+      <div class="w-full md:w-1/2 lg:w-2/2 lg:ml-1 lg:mt-32">
+        <h1 class=" text-white  text-3xl mt-12 md:mt-24 md:text-5xl font-bold">Classified Ads</h1>
+        <p class="text-white mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+     <button class="text-white mt-4 w-32 h-10 rounded-lg bg-orange-600 "><a href="#section1">Read More</a></button>
+     <button class="text-black mt-5 w-32 h-10 rounded-lg bg-white " ><a href="#footer">Contact Us</a></button>
+      </div>
+      <div class="w-full mt-12 md:w-1/2 md:mt-20 lg:w-1/2  lg:-mr-1 lg:mt-32 ">
+        <img src="src/img/banner-img1.png" alt="" class="fadeInRight wow animated">
+      </div>
+</div>
+
+    <!-- End header -->
+    </div>
+    <!-- section1 -->
+    <div class=" container mx-auto py-4  flex justify-between flex-wrap" id="section1">
+      <div class="w-full md:w-1/2 md:mt-24 lg:w-1/2 " >
+        <img src="src/img/Untitled-1.png" alt="" class="fadeInLeft wow animated">
+      </div>
+      <div class="w-full mt-12 md:w-1/2 md:mt-24 lg:w-1/2 lg:mt-40">
+        <h1 class="text-5xl font-bold ml-4">About <span class="text-orange-600">us</span></h1>
+        <p class="ml-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        <button class="text-white ml-4 mt-4 w-32 h-10 rounded-lg bg-orange-600 "><a href="#section2">Read more</a></button>
+      </div>
+    </div>
+    <!-- End section1 -->
+
+    <!-- start section2 -->
+
+    <div class="lg:mt-32 bg-blue-900" id="section2">
+    <div class=" container mx-auto py-4  flex justify-between flex-wrap ">
+      <div class="w-full text-2xl font-bold mt-24 text-white "><p class="ml-4">ONE OF THE BEST <span class="text-orange-600">CLASSIFIED</span></p></div>
+      <div class="w-full pl-4 text-center md:w-1/4 md:mt-12 " >
+        <img src="src/img/img-1.png" alt="" class="zoomIn wow animated">
+        </div>
+        <div class="w-full md:w-3/4 md:mt-12" >
+          <h1 class="text-white ml-4 text-xl font-bold md:mt-28" >FRONT END MULTICURRENCY</h1>
+          <p class="text-white ml-4 mt-3">using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model</p>
+        </div>
+        <div class="w-full pl-4 text-center md:w-1/4 md:mt-12 " >
+          <img src="src/img/img-1.png" alt="" class="zoomIn wow animated">
+          </div>
+          <div class="w-full md:w-3/4 md:mt-12" >
+            <h1 class="text-white ml-4 text-xl font-bold md:mt-28" >FRONT END MULTICURRENCY</h1>
+            <p class="text-white ml-4 mt-3">using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model</p>
+          </div>
+          <button class="text-white ml-24 mt-12 md:mt-28 w-32 h-10 rounded-lg bg-orange-600 "><a href="#section3">Read more</a></button>
+        
+        </div>
+      </div>
+      <!-- end section2 -->
+      <!-- start section3 -->
+      <div class=" container mx-auto py-4  flex justify-between flex-wrap " id="section3">
+        <div class="w-full text-2xl font-bold mt-24 md:text-center "><p class="ml-8 md:ml-0 md:pr-12 lg:pr-32">OUR CLIENT <span class="text-orange-600">REVIEW</span></p></div>
+        <div class=" md:mt-2" >
+          <p class="w-3/4  md:text-center md:min-w-max ml-8 mt-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it</p>
+        </div>
+        <div class=" ">
+          <img src="src/img/portfolio.png" alt="" class="fadeIn wow animated w-3/4 md:mx-1/2 md:justify-center">
+          <h1 class="text-l mt-2 w-3/4 text-center font-bold md:text-center md:w-full md:pr-20 lg:pr-40">Fatah Musa</h1>
+          <h4 class="text-l mt-2 w-3/4 text-center text-orange-600 md:text-center md:w-full md:pr-20 lg:pr-40">(web devolper)</h4>
+          <p class=" mt-2 w-3/4 text-center md:text-center md:min-w-max px-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</p>
+        </div>"
+       
+      </div>
+      <!-- end section3 -->
+      <!-- start footer -->
+      <div class="lg:mt-32 bg-blue-900" id="footer">
+        <div class=" container mx-auto py-4  flex justify-between flex-wrap ">
+          <div class="text-white w-full text-2xl mt-8 ml-4 lg:w-1/4 lg:ml-0">Contact Us</div>
+          <div class="text-white w-full mt-8 ml-4 lg:w-1/4  lg:ml-0">
+            <span><img src="src/img/map-icon.png" alt="" class=""></span><a href="https://www.map.com">Locations</a></div>
+          <div class="text-white w-full mt-8 ml-4 lg:w-1/4  lg:ml-0"> <span><img src="src/img/call-icon.png" alt="" class=""></span><a href="+249122082509">Phone</a></div>
+          <div class="text-white w-full mt-8 ml-4 lg:w-1/4  lg:ml-0"><span><img src="src/img/mail-icon.png" alt="" class=""></span><a href="https:www.gmail.com">Email</a></div>
+      
+          <div class="lg:mt-32 lg:w-full">
+            <div class="">
+            <input type="text" name="name" placeholder="Enter your name" class=" w-1/2  ml-4 mt-2">
+            <input type="text" name="Email" placeholder="Enter your Email"  class=" w-1/2  ml-4 mt-2">
+            <input type="text" name="Email" placeholder="text here"  class=" w-1/2 h-20 ml-4 mt-2">
+          </div>
+        </div>
+          <div class="w-1/4"><button class="text-white ml-4 lg:ml-4 mt-4 w-20 md:w-32 h-10 rounded-lg bg-orange-600 ">Send</button>
+          </div>
+          <div class="w-3/4 flex mt-2"><a href="https:www.facebook.com"><img src="src/img/fb-icon.png"  alt="" class="m-2"></a><a href="https://www.instagram.com"><img src="src/img/instagram-icon.png" alt="" class="m-2"></a>
+            <a href="https://www.linkedin.com"><img src="src/img/in-icon.png" alt="" class="m-2"></a><a href="https://www.twitter.com"><img src="src/img/twitter-icon.png" alt="" class="m-2"></a></div>
+            <div class="text-white text-center w-full mt-12 mb-10">Copyright 2019 All Right Reserved By.<span>Fatah Musa</span></div>
+          </div>
+      </div>
+      <!-- End footer -->
+  </body>
+  <script src="../wow/wow.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="../tailwind.config.js"></script>
+</html>
